@@ -1,0 +1,35 @@
+.carusel-slider{
+    width: 90vw;
+    margin-left: 5%;
+}
+
+
+.visit-cards
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+/* ---slider-buttons----*/
+
+.button-arrow{
+    z-index: 1;
+}
+.button-arrow img{
+    height: 50px;
+}
+
+.button-arrow .arrow-right {
+    position: absolute;
+    right: 10px;
+    margin-top: 15%;
+    z-index: 1;
+}
+
+.button-arrow .arrow-left{
+    position: absolute;
+    left: 10px;
+    z-index: 1;
+    margin-top: 15%;
+}

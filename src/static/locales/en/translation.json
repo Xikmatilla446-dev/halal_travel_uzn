@@ -1,3 +1,15 @@
 {
-  "Welcome to React": "Welcome to React and react-i18next"
+  "HOME": "HOME",
+
+  "New Post": "New Post",
+
+  "SERVICES": "SERVICES",
+
+  "PORTFOLIO": "PORTFOLIO",
+
+  "CARER": "CARER",
+
+  "CONTACT": "CONTACT",
+
+  "desTest":"About additional organizational measures for creation of favorable conditions for development of tourism potential of the Republic of Uzbekistan"
 }

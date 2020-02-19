@@ -1,0 +1,18 @@
+/*}*/
+
+.portfolio-items-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0 20px;
+}
+
+
+.portfolio-item-wrapper{
+  position: relative;
+  padding: 5px;
+
+}
+
+h1{
+  text-align: center;
+}

@@ -1,3 +1,9 @@
 {
-  "Welcome to React": "Willkommen bei react und react-i18next"
+  "HOME": "UY",
+  "New Post": "Yangi pochta",
+  "SERVICES": "XIZMATLAR",
+  "PORTFOLIO": "PORTFOLIO",
+  "CARER": "CARER",
+  "CONTACT": "ALOQA",
+  "desTest": "O‘zbekiston Respublikasi turizm salohiyatini rivojlantirish uchun qulay sharoitlar yaratish bo‘yicha qo‘shimcha tashkiliy chora-tadbirlar to‘g‘risida"
 }

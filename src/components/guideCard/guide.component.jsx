@@ -1,44 +1,141 @@
-import React from 'react'
-import Img from '../../static/guides/McCosker.jpg'
+import React from 'react';
+
+
+import {withRouter} from 'react-router-dom'
+
+import guide1 from '../../static/newimage/guide1.jpg'
+import guide2 from '../../static/newimage/guide2.jpg'
+import guide3 from '../../static/newimage/guide3.jpg'
 
 import './guide.styles.css'
 
-const GuideCart = ({item}) => {
+const GuideCart = ({history}) => {
 
-    const { id, userId, title, body} =item;
 
         return(
 
-                    <div className="card">
-                        <img className="card-image" src={Img} alt="guide"/>
+            <div className="guides-page-container">
 
-                            <div className="card-text">
-                                <span className="date"> {title}</span>
+                <div className="services">
+                    <h2>Our Best Events</h2>
+                    <hr className="border secondary" />
 
-                                <p>{
-                                    body
-                                }
-                                </p>
-                            </div>
-                            <div className="card-stats">
-                                <div className="stat">
-                                    <div className="value">4m</div>
-                                    <div className="type">read</div>
-                                </div>
-                                <div className="stat border">
-                                    <div className="value">5123</div>
-                                    <div className="type">views</div>
-                                </div>
-                                <div className="stat">
-                                    <div className="value">32</div>
-                                    <div className="type">comments</div>
-                                </div>
-                            </div>
+                        <h4>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id maiores neque perferendis dolorem soluta vero provident aliquam nulla aut. Hic cupiditate dolorum sit perferendis optio sequi in. Adipisci, totam, expedita.
+                        </h4>
+                </div>
+
+                <div className="events">
+                    <div className="events-container">
+                        <div className="event-item">
+                            <i className="fa fa-globe"></i>
+                            <p>Worls Tours</p>
+                        </div>
+                        <div className="event-item">
+                            <i className="fa fa-plane"></i>
+                            <p>Airline Tickets</p>
+                        </div>
+                        <div className="event-item">
+                            <i className="fa fa-university"></i>
+                            <p>Hotel REservation</p>
+                        </div>
+                        <div className="event-item">
+                            <i className="fa fa-safari"></i>
+                            <p>Advanture Tours</p>
+                        </div>
                     </div>
+                </div>
+
+
+                <div className="services">
+                    <h2>Tour Guides</h2>
+                    <hr className="border secondary" />
+
+                        <h4>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id maiores neque perferendis dolorem soluta vero provident aliquam nulla aut. Hic cupiditate dolorum sit perferendis optio sequi in. Adipisci, totam, expedita.
+                        </h4>
+                </div>
+
+                <div className="packages">
+                    <div className="packages-container guides">
+
+
+                        <div className="card-guide">
+                            <img src={guide1} alt=""/>
+                                <div className="card-body">
+                                    <div className="title">
+                                        <p >Guide</p>
+                                        <div
+                                            onClick={()=> {
+                                                history.push('/guide')}}
+                                            className="stars">
+                                            Ocean Guide
+                                        </div>
+                                    </div>
+                                    <div className="description">
+							<span>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+								Ratione, adipisci ipsum perspiciatis vel odio reiciendis
+							</span>
+                                    </div>
+                                </div>
+
+                        </div>
+
+                        <div className="card-guide">
+                            <img src={guide2} alt="" />
+                                <div className="card-body">
+                                    <div className="title">
+                                        <p >Guide</p>
+                                        <div
+                                            onClick={()=> {
+                                                history.push('/guide')}}
+                                            className="stars">
+                                            Ocean Guide
+                                        </div>
+                                    </div>
+                                    <div className="description">
+							<span>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+								Ratione, adipisci ipsum perspiciatis vel odio reiciendis
+							</span>
+                                    </div>
+                                </div>
+
+                        </div>
+
+                        <div className="card-guide">
+                            <img src={guide3} alt="" />
+                                <div className="card-body">
+                                    <div className="title">
+                                        <p >Guide</p>
+                                        <div
+                                            onClick={()=> {
+                                                history.push('/guide')}}
+                                            className="stars">
+                                            Ocean Guide
+                                        </div>
+                                    </div>
+                                    <div className="description">
+							<span>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+								Ratione, adipisci ipsum perspiciatis vel odio reiciendis
+							</span>
+                                    </div>
+
+                                </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
 
         )
 
     };
 
 
-export default GuideCart;
+export default withRouter(GuideCart);

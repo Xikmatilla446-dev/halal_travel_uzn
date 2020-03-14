@@ -1,455 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
-
-@media screen and(max-width: 800px) {
-    *{
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-    .main-box{
-        display: grid;
-        grid-template-columns: 25% 47% 28%;
-        max-width: 1400px;
-        margin: auto 5px;
-    }
-    .box{
-        padding: 10px;
-        background-color: #0A264D;
-        position: relative;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .box-1 img {
-        width: 70%;
-        height: 65%;
-        position: absolute;
-        top: 15px;
-        left: 85px;
-    }
-    .box-2 .menu .links{
-        display: flex;
-        flex-wrap: wrap;
-        margin: 20px 5px 0 35px;
-        padding: 2px;
-    }
-    .box-2 .menu .links li{
-        padding: 10px;
-        list-style: none;
-        display: inline-block;
-        text-align: center;
-    }
-    .box-2 .menu .links li a:not(.active){
-        text-decoration: none;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        font-size: 11pt;
-        color: #fff;
-        font-weight:400;
-        font-family: "Times New Roman";
-    }
-    .active{
-        text-decoration: none;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        font-size: 12pt;
-        color: #C2752E;
-        font-weight: 400;
-        font-family: "Times New Roman";
-    }
-
-
-    .box-3 {
-        display: flex;
-        padding: 10px;
-        flex-wrap: wrap;
-        position: relative;
-    }
-
-
-    .box-3 .button{
-        margin: 15px 5px ;
-        position: relative;
-        top: 10px;
-        left: -20px;
-    }
-    .box-3 button{
-        padding: 12px 20px;
-        border-radius: 20px;
-        background-color: #495061;
-        color: white;
-        outline-style: none;
-        border: none;
-        font-size: 11pt;
-
-    }
-    .box-3 a{
-        text-decoration: none;
-    }
-    .box-3 .text-p p{
-        padding: 3px 20px;
-        border-radius: 20px;
-        background-color: #495061;
-        color: white;
-        outline-style: none;
-        border: none;
-        font-size: 11pt;
-
-    }
-
-    .box-3 .button::before{
-        content: '';
-        width: 30px;
-        height: 30px;
-        border: 2px solid #2A2E38 ;
-        border-radius: 100%;
-        position: absolute;
-        top: 3px;
-        left: 4px;
-    }
-    .box-3 .text{
-        margin-left: 20px;
-    }
-    .text-1{
-        margin-left: 22px;
-    }
-    .text-2{
-        margin-left: 24px;
-    }
-    .text-3{
-        margin-left: 24px;
-    }
-    .icon-envelope{
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        color:#2A2E38 ;
-        text-align: center;
-    }
-    .icon-phone-alt{
-        position: absolute;
-        top: 11px;
-        left: 14px;
-        color:#2A2E38 ;
-        text-align: center;
-    }
-
-    .box-2 .menu .links li a:hover:not(.active){
-        color: #C2752E ;
-        transition: all 0.3s ease 0s;
-    }
-    .box-3 a button:hover{
-        background-color: #798AA6 ;
-        transition: all 0.3s ease 0s;
-    }
-    .box-3 a p:hover{
-        background-color: #798AA6 ;
-        transition: all 0.3s ease 0s;
-    }
+.content
+{
+    width: 100%;
 
 }
 
 
-@media screen and  (min-width:860px) and (max-width:1250px){
+.navbar
+{
+    position: static;
+    top: 0px;
+    color: #111;
+    padding: 1em;
+    background-color: #fff;
+}
 
-    *{
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-    .main-box{
-        display: grid;
-        grid-template-columns: 25% 47% 28%;
-        max-width: 1400px;
-        margin: auto 0;
-    }
-    .box{
-        padding: 10px;
-        background-color: #0A264D;
-        position: relative;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .box-1 img {
-        width: 57%;
-        height: 55%;
-        position: absolute;
-        top: 0px;
-        left: 30px;
-    }
-    .box-2 .menu .links{
-        display: flex;
-        flex-wrap: wrap;
-        margin: 8px 5px 10px -50px;
-        padding: 4px;
-    }
-    .box-2 .menu .links li{
-        padding: 4px;
-        list-style: none;
-        display: inline-block;
-        text-align: center;
-    }
-    .box-2 .menu .links li a:not(.active){
-        text-decoration: none;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        font-size: 9pt;
-        color: #fff;
-        font-weight:400;
-        font-family: "Times New Roman";
-    }
-    .active{
-        text-decoration: none;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        font-size: 9pt;
-        color: #C2752E;
-        font-weight: 400;
-        font-family: "Times New Roman";
-    }
-
-
-    .box-3 {
-        display: flex;
-        padding: 5px;
-        flex-wrap: wrap;
-        position: relative;
-    }
-
-
-    .box-3 .button{
-        margin: 2px ;
-        position: relative;
-        top: 0;
-        left: -20px;
-    }
-    .box-3 button{
-        padding: 12px 20px;
-        border-radius: 20px;
-        background-color: #495061;
-        color: white;
-        outline-style: none;
-        border: none;
-        font-size: 8pt;
-
-    }
-    .box-3 a{
-        text-decoration: none;
-    }
-    .box-3 .text-p p{
-        padding: 3px 20px;
-        border-radius: 20px;
-        background-color: #495061;
-        color: white;
-        outline-style: none;
-        border: none;
-        font-size: 9pt;
-
-    }
-
-    .box-3 .button::before{
-        content: '';
-        width: 30px;
-        height: 30px;
-        border: 2px solid #2A2E38 ;
-        border-radius: 100%;
-        position: absolute;
-        top: 1px;
-        left: 2px;
-    }
-    .box-3 .text{
-        margin-left: 20px;
-    }
-    .text-1{
-        margin-left: 22px;
-    }
-    .text-2{
-        margin-left: 24px;
-    }
-    .text-3{
-        margin-left: 24px;
-    }
-    .icon-envelope{
-        position: absolute;
-        top: 9px;
-        left: 10px;
-        color:#2A2E38 ;
-        text-align: center;
-    }
-    .icon-phone-alt{
-        position: absolute;
-        top: 11px;
-        left: 12px;
-        color:#2A2E38 ;
-        text-align: center;
-    }
-
-    .box-2 .menu .links li a:hover:not(.active){
-        color: #C2752E ;
-        transition: all 0.3s ease 0s;
-    }
-    .box-3 a button:hover{
-        background-color: #798AA6 ;
-        transition: all 0.3s ease 0s;
-    }
-    .box-3 a p:hover{
-        background-color: #798AA6 ;
-        transition: all 0.3s ease 0s;
-    }
-
+.navbar-container
+{
+    width: 85vw;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: arial;
+    font-size: 15px;
+}
+.navbar ul
+{
+    display: inline;
+}
+.navbar li
+{
+    list-style: none;
+    display: inline;
+    margin: 0px 10px;
+    cursor: pointer;
 
 }
 
+.navbar li:hover
+{
+    color: #ffc527;
+}
 
+.active
+{
+    color: #ffc527;
+}
 
+.button
+{
+    outline: none;
+    border: none;
+    padding: 10px;
+}
 
+.yellow
+{
+    background-color: #ffc527;
+    color: #111;
+    transition: 0.2s linear;
+}
 
-
-
-
-
-
-@media screen and (min-width:1250px) {
-    *{
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-    .main-box{
-        display: grid;
-        grid-template-columns: 30% 50% 25%;
-        max-width: 1400px;
-        margin: auto 0;
-    }
-    .box{
-        padding: 10px;
-        background-color: #0A264D;
-        position: relative;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .box-1 img {
-        width: 75%;
-        height: 100%;
-        position: absolute;
-        top: 5px;
-        left: 40px;
-        padding-top: 8px;
-        padding-bottom: 15px;
-    }
-    .box-2 .menu .links{
-        display: flex;
-        flex-wrap: wrap;
-        margin: 20px 5px 0 30px;
-        padding: 2px;
-    }
-    .box-2 .menu .links li{
-        padding: 7px;
-        list-style: none;
-        display: inline-block;
-        text-align: center;
-    }
-    .box-2 .menu .links li a:not(.active){
-        text-decoration: none;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        font-size: 14px;
-        color: #fff;
-        font-weight:400;
-        font-family: "Times New Roman";
-    }
-    .active{
-        text-decoration: none;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        font-size: 14px;
-        color: #C2752E;
-        font-weight: 400;
-        font-family: "Times New Roman";
-    }
-
-
-    .box-3 {
-        display: flex;
-        padding: 5px;
-        position: relative;
-    }
-    .box-3 .button{
-        margin: 15px -45px ;
-        position: relative;
-        top: 7px;
-        left: -25px;
-    }
-    .box-3 button{
-        padding: 12px 10px;
-        border-radius: 20px;
-        background-color: #495061;
-        color: white;
-        outline-style: none;
-        border: none;
-        font-size: 10pt;
-    }
-    .box-3 a{
-        text-decoration: none;
-    }
-    .box-3 .text-p p{
-        padding: 3px 10px;
-        margin-left: 55px;
-        border-radius: 20px;
-        background-color: #495061;
-        color: white;
-        outline-style: none;
-        border: none;
-        font-size: 10pt;
-
-    }
-
-    .box-3 .button::before{
-        content: '';
-        width: 28px;
-        height: 28px;
-        border: 2px solid #2A2E38 ;
-        border-radius: 100%;
-        position: absolute;
-        top: 3px;
-        left: 3px;
-    }
-
-    .text-1{
-        padding-left: 30px;
-        box-sizing: border-box;
-    }
-    .text-2{
-        padding-left: 30px;
-    }
-    .text-3{
-        padding-left: 30px;
-    }
-    .icon-envelope{
-        position: absolute;
-        top: 10px;
-        left: 9px;
-        color:#2A2E38 ;
-        text-align: center;
-    }
-    .icon-phone-alt{
-        position: absolute;
-        top: 11px;
-        left: 12px;
-        color:#2A2E38 ;
-        text-align: center;
-    }
-
-    .box-2 .menu .links li a:hover:not(.active){
-        color: #C2752E ;
-        transition: all 0.3s ease 0s;
-    }
-    .box-3 a button:hover{
-        background-color: #798AA6 ;
-        transition: all 0.3s ease 0s;
-    }
-    .box-3 a p:hover{
-        background-color: #798AA6 ;
-        transition: all 0.3s ease 0s;
-    }
-
+.yellow:hover
+{
+    background-color: #111;
+    color: #fff;
 }

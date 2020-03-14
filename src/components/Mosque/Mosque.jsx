@@ -4,132 +4,90 @@ import medician from '../../static/popular/medician.jpeg';
 import honeymoon1 from '../../static/popular/honeymoon1.jpg';
 import mauntain2 from '../../static/popular/mauntain2.jpeg';
 
-import './cart-blog-styles.css';
+import '../card-blog-hotel/cart-blog.styles.css';
 
-const   Mosque =  () => {
+const Mosque = () => {
 
-    return(
+    return (
 
         <div className="packages-blog">
             <div className="services">
-                <h2>Most popular packages</h2>
-                <hr className="border secondary" />
+                <h2>Mosques</h2>
+                <hr className="border secondary"/>
                 Mosques
                 <h4>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id maiores neque perferendis dolorem
-                    soluta vero provident aliquam nulla aut. Hic cupiditate dolorum sit perferendis optio sequi in.
-                    Adipisci, totam, expedita.
-                </h4>
+                    There are 2043 mosques in Uzbekistan. Wihle using our services you have an opportunity to know about
+                    all uzbek mosques. We offer to show you the nierest mosque from your location. And also using our
+                    app give you to find easily all mosques in Uzbekistan</h4>
             </div>
-
             <div className="packages">
                 <div className="packages-container">
 
                     <div className="card-blog">
-                        <img src={honeymoon1} alt="" />
+                        <img src="https://www.advantour.com/img/uzbekistan/tashkent/minor-mosque2.jpg" alt=""/>
                         <div className="card-body">
                             <div className="title">
-                                <p>Honeymoon</p>
-                                <div className="stars">
-                                    <i className="fa fa-star"></i>
-                                    <i className="fa fa-star"></i>
-                                    <i className="fa fa-star"></i>
-                                    <i className="fa fa-star"></i>
-                                    <i className="fa fa-star"></i>
-                                </div>
+                                <p>Minor</p>
+
                             </div>
                             <div className="description">
 							<span>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-								Ratione, adipisci ipsum perspiciatis vel odio reiciendis
-							</span>
+
+Little Ring Road, Tashkent, Uzbekistan <br/>
+                                87PG+42 Tashkent, Uzbekistan <br/>
+									</span>
                             </div>
                         </div>
                         <div className="card-footer">
-                            <div>
+                            <div className="card-icons-corsor">
                                 <i className="fa fa-map-marker"></i>
-                                World Wide
-                            </div>
-                            <div>
-                                <i className="fa fa-clock-o"></i>
-                                7 Days
-                            </div>
-                            <div>
-                                <i className="fa fa-dollar"></i>
-                                2600
+                                location
                             </div>
                         </div>
                     </div>
 
                     <div className="card-blog">
-                        <img src={mauntain2} alt="" />
+                        <img src="https://i.pinimg.com/564x/89/ed/3c/89ed3c3ab6d9c24b99ae6d3dbb5b4cce.jpg" alt=""/>
                         <div className="card-body">
                             <div className="title">
-                                <p>Mauntain tour</p>
-                                <div className="stars">
-                                    <i className="fa fa-star"></i>
-                                    <i className="fa fa-star"></i>
-                                    <i className="fa fa-star"></i>
-                                    <i className="fa fa-star"></i>
-                                    <i className="fa fa-star"></i>
-                                </div>
+                                <p>Mosques</p>
+
                             </div>
                             <div className="description">
 							<span>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-								Ratione, adipisci ipsum perspiciatis vel odio reiciendis
+								Zarkaynar Street, Tashkent, Uzbekistan <br/>
+                86PR+XG Tashkent, Uzbekistan <br/>
 							</span>
                             </div>
                         </div>
+
                         <div className="card-footer">
-                            <div>
+                            <div className="card-icons-corsor">
                                 <i className="fa fa-map-marker"></i>
-                                World Wide
-                            </div>
-                            <div>
-                                <i className="fa fa-clock-o"></i>
-                                7 Days
-                            </div>
-                            <div>
-                                <i className="fa fa-dollar"></i>
-                                2600
+                                location
                             </div>
                         </div>
                     </div>
 
 
                     <div className="card-blog">
-                        <img src={medician} alt="" />
+                        <img src="https://i.pinimg.com/564x/f7/5a/42/f75a42127c10e1ff733450eb5b6c7c65.jpg" alt=""/>
                         <div className="card-body">
                             <div className="title">
-                                <p>Honeymoon</p>
-                                <div className="stars">
-                                    <i className="fa fa-star"></i>
-                                    <i className="fa fa-star"></i>
-                                    <i className="fa fa-star"></i>
-                                    <i className="fa fa-star"></i>
-                                    <i className="fa fa-star"></i>
-                                </div>
+                                <p>Mosques</p>
+
                             </div>
                             <div className="description">
 							<span>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-								Ratione, adipisci ipsum perspiciatis vel odio reiciendis
+							Mannon Uygur Street, Tashkent, Uzbekistan <br/>
+                                86F3+4W Tashkent, Uzbekista
 							</span>
                             </div>
                         </div>
                         <div className="card-footer">
-                            <div>
+                            <div className="card-icons-corsor">
                                 <i className="fa fa-map-marker"></i>
-                                World Wide
-                            </div>
-                            <div>
-                                <i className="fa fa-clock-o"></i>
-                                7 Days
-                            </div>
-                            <div>
-                                <i className="fa fa-dollar"></i>
-                                2600
+                                location
                             </div>
                         </div>
                     </div>

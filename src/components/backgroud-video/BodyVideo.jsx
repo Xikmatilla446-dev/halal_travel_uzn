@@ -16,28 +16,24 @@ const BodyVideo = () =>{
 
 
             <div>
-            <div className="hello">
-                <body>
                 <div className="section">
-                    <div className="banner-center">
-                        <h1>Welcome to Uzbekiston</h1>
-                        <h4>Discover our world-class hotels & resturant resort</h4>
-                        <div className="banner-btns">
-                            <button className="btns pink-btn">Explore the beauty</button>
-                            <button className="btns normal-btn">Download</button>
-                        </div>
 
-                    </div>
+                        <div className="vertical">
+                            <h1>Welcome to Uzbekistan!</h1>
+                            <hr className="border"/>
+                            <h4>
+                                Life is short to not explore the world!
+                            </h4>
+                            <button className="button bigger">Explore more</button>
+                        </div>
                     <div className="video-container">
                         <div className="color-overlay"></div>
+
                         <video id="videoBG" poster={loding} autoPlay muted loop>
                             <source src={mp4} type="video/mp4"/>
                         </video>
                     </div>
                 </div>
-                </body>
-                <span id="test"/>
-            </div>
 
         </div>
         );

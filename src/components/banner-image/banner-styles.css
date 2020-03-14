@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.content
+{
+    width: 100%;
+
+}
+
+.banner
+{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background: no-repeat;
+}
+
+.navbar
+{
+    position: static;
+    top: 0px;
+    color: #111;
+    padding: 1em;
+    background-color: #fff;
+}
+
+.navbar-container
+{
+    width: 85vw;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: arial;
+    font-size: 15px;
+}
+.logo-image{
+    height: 65px;
+    width: 150px;
+}
+
+
+.navbar ul
+{
+    display: inline;
+}
+.navbar li
+{
+    list-style: none;
+    display: inline;
+    margin: 0px 10px;
+    cursor: pointer;
+
+}
+
+.navbar li:hover
+{
+    color: #ffc527;
+}
+
+.active
+{
+    color: #ffc527;
+}
+
+.button
+{
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+
+.yellow
+{
+    background-color: #ffc527;
+    color: #111;
+    transition: 0.2s linear;
+}
+
+.yellow:hover
+{
+    background-color: #111;
+    color: #fff;
+}
+
+.centered
+{
+    height: 100vh!important;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0,0.4);
+}
+
+.vertical
+{
+    padding: 10px;
+    color: #fff;
+    margin: 0px auto;
+    font-family: arial;
+    text-align: center;
+    width: 85%;;
+
+}
+
+.vertical h1
+{
+    font-size: 75px;
+    color: #fff;
+    margin-bottom: 0.2em;
+    font-weight: 300;
+}
+
+.vertical h4
+{
+    width: 70%;
+    margin: 0px auto;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    margin-bottom: 2em;
+}
+
+.bigger
+{
+    padding: 1em 1.4em;
+    background-color: #ffc527;
+    font-size: 16px;
+}
+
+.border
+{
+    width: 150px;
+    margin: 2em auto;
+    border: none;
+    outline: none;
+    border: 1px solid #ffc527;
+}
+

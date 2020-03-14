@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="adfeca23-109a-403a-8ded-4b8aa417aedb" name="Default Changelist" comment="&quot;xammasi endi push qildim&quot;">
+      <change afterPath="$PROJECT_DIR$/.idea/halal-travel-uzbekistan.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/guides/.idea/guides.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/guides/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/guides/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/guides/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/loding.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/place/Blue-Madrassa-Tashkent.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/place/Bukhara-Man-walking.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/place/Khiva-Tower.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/place/Ladies-Walking-Samarkand.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/place/Looking-Towards-Samarkand.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/place/Samarkand-At-Night.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/place/Samarkand-Panorama-Big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/place/Samarkand-Panorama.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/place/Samarkand-Sunset.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/place/Samarkand-Walls.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/place/Tashkent-Big-Mosque.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/place/Tashkent-Indoor-Market-Food.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/place/Tashkent-Indoor-Market.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/uzbekiston.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/welcom-to-toshkent.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Airline-Tickets/Airline-Tickets.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Airline-Tickets/Airline-Tickets.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Airline-Tickets/Airline-Tickets.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Airline-Tickets/Airline-Tickets.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Google-maps-API/google-maps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Google-maps-API/google-maps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Mosque/Mosque.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Mosque/Mosque.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PlacesAdvantures/PlacesAdvantures.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlacesAdvantures/PlacesAdvantures.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PlacesAdvantures/PlacesAdvantures.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlacesAdvantures/PlacesAdvantures.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PlacesAdvantures/placesAdvantureData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlacesAdvantures/placesAdvantureData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ScrollButton/ScrollButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ScrollButton/ScrollButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ScrollButton/scroll.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ScrollButton/scroll.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Title/Title.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Title/Title.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/backgroud-video/Body.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/backgroud-video/Body.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/backgroud-video/BodyVideo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/backgroud-video/BodyVideo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/banner-image/banner-imeg.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/banner-image/banner-imeg.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/banner-image/banner-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/banner-image/banner-styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/banner-section/banner-section.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/banner-section/banner-section.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/banner-section/banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/banner-section/banner.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/banner-section/data-banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/banner-section/data-banner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/card-blog-hotel/cart-blog-hotel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card-blog-hotel/cart-blog-hotel.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/card-blog-hotel/cart-blog.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card-blog-hotel/cart-blog.styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/card-blog-hotel/dataHoleFace.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card-blog-hotel/dataHoleFace.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/carrusel/Slider/dataSlide.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/carrusel/Slider/dataSlide.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/carrusel/Slider/slider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/carrusel/Slider/slider.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/carrusel/react-animated-slider/animated-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/carrusel/react-animated-slider/animated-slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/carrusel/react-animated-slider/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/carrusel/react-animated-slider/content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/carrusel/react-animated-slider/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/carrusel/react-animated-slider/custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/carrusel/react-animated-slider/sourceView.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/carrusel/react-animated-slider/sourceView.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart-blog-place/cart-blog-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-blog-place/cart-blog-styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart-blog-place/cart-blog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-blog-place/cart-blog.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/description-guides/description-guide-component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/description-guides/description-guide-component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/description-guides/description-guide-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/description-guides/description-guide-styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/foods-component/foods-component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/foods-component/foods-component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/foods-component/foods-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/foods-component/foods-styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer-component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer-component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer-styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/guideCard/guide.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/guideCard/guide.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/guideCard/guide.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/guideCard/guide.styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/our-sponsors/our-sponsors.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/our-sponsors/our-sponsors.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/our-sponsors/our-sponsors.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/our-sponsors/our-sponsors.styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/react-youtube/react-youtube-component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/react-youtube/react-youtube-component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/react-youtube/react-youtube.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/react-youtube/react-youtube.styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/services-compoent/services-component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services-compoent/services-component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/services-compoent/services.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services-compoent/services.styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/weather/weather-components.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/weather/weather-components.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/guide/guide.page.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/guide/guide.page.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/homepage/homepage.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepage/homepage.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/homepage/homepage.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepage/homepage.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/place/place.page.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/place/place.page.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/guides/mp3/7.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/guides/mp3/7.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/guides/mp3/mp3.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/guides/mp3/mp3.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/backgroud-video/BodyVideo.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/homepage/homepage.component.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/static/loding.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/backgroud-video/Body.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>background-</find>
+      <find>m</find>
+      <find>most-title</find>
+      <find>most-tit</find>
+      <find>60px</find>
+      <find>BODY</find>
+      <find>body</find>
+      <find>most-img</find>
+      <find>button</find>
+      <find>font-size</find>
+      <find>most-im</find>
+      <find>background-color</find>
+      <find>most-w</find>
+      <find>Go to previous slide</find>
+      <find>border secondary</find>
+      <find>most-title-img</find>
+      <find>most-title-custom</find>
+      <find>cookie</find>
+      <find>displ</find>
+      <find>coo</find>
+      <find>dis</find>
+      <find>Most popular packages</find>
+      <find>CartBlog</find>
+      <find>Our Sponsors</find>
+      <find>Our Advantures</find>
+      <find>Aur Advantures</find>
+      <find>image</find>
+      <find>most p</find>
+      <find>places</find>
+      <find>mosqu</find>
+    </findStrings>
+    <dirStrings>
+      <dir>F:\Новая папка\new\halal-travel-uzbekistan</dir>
+      <dir>F:\Новая папка\new\halal-travel-uzbekistan\src\components\banner-section</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/components/place/PlacesAdvantures.css" />
+        <option value="$PROJECT_DIR$/src/components/place/PlacesAdvantures.jsx" />
+        <option value="$PROJECT_DIR$/src/components/footer/footer-component.jsx" />
+        <option value="$PROJECT_DIR$/src/components/our-sponsors/our-sponsors.jsx" />
+        <option value="$PROJECT_DIR$/src/components/banner-image/banner-imeg.jsx" />
+        <option value="$PROJECT_DIR$/src/components/card-blog-hotel/cart-blog-hotel.jsx" />
+        <option value="$PROJECT_DIR$/src/components/footer/footer-styles.css" />
+        <option value="$PROJECT_DIR$/src/components/banner-image/banner-styles.css" />
+        <option value="$PROJECT_DIR$/src/components/Title/Title.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Mosque/Moasque.jsx" />
+        <option value="$PROJECT_DIR$/src/components/react-youtube/eventNames.js" />
+        <option value="$PROJECT_DIR$/src/components/react-youtube/loadSdk.js" />
+        <option value="$PROJECT_DIR$/src/components/react-youtube/react-youtube.styles.css" />
+        <option value="$PROJECT_DIR$/src/components/header/header.component.jsx" />
+        <option value="$PROJECT_DIR$/src/components/header/header.styles.css" />
+        <option value="$PROJECT_DIR$/src/components/ScrollButton/scroll.styles.css" />
+        <option value="$PROJECT_DIR$/src/components/ScrollButton/scroll.styles.scss" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/components/banner-section2/banner-section.jsx" />
+        <option value="$PROJECT_DIR$/src/components/our-sponsors/our-sponsors.styles.css" />
+        <option value="$PROJECT_DIR$/src/components/card-blog-hotel/cart-blog.styles.css" />
+        <option value="$PROJECT_DIR$/src/components/PlacesAdvantures/placesAdvantureData.js" />
+        <option value="$PROJECT_DIR$/src/components/banner-section/banner.css" />
+        <option value="$PROJECT_DIR$/src/components/guideCard/guide.styles.css" />
+        <option value="$PROJECT_DIR$/src/pages/guide/guide.page.component.jsx" />
+        <option value="$PROJECT_DIR$/src/components/navbar/Navbar.js" />
+        <option value="$PROJECT_DIR$/src/components/PlacesAdvantures/PlacesAdvantures.css" />
+        <option value="$PROJECT_DIR$/src/pages/homepage/homepage.styles.scss" />
+        <option value="$PROJECT_DIR$/src/components/react-youtube/react-youtube-component.jsx" />
+        <option value="$PROJECT_DIR$/src/components/PlacesAdvantures/PlacesAdvantures.jsx" />
+        <option value="$PROJECT_DIR$/src/components/ScrollButton/ScrollButton.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/place/place.page.component.jsx" />
+        <option value="$PROJECT_DIR$/src/components/foods-component/foods-component.jsx" />
+        <option value="$PROJECT_DIR$/src/components/foods-component/foods-styles.css" />
+        <option value="$PROJECT_DIR$/src/components/description-guides/description-guide-styles.css" />
+        <option value="$PROJECT_DIR$/src/components/description-guides/description-guide-component.jsx" />
+        <option value="$PROJECT_DIR$/src/components/services-compoent/services-component.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Airline-Tickets/Airline-Tickets.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Airline-Tickets/Airline-Tickets.css" />
+        <option value="$PROJECT_DIR$/src/components/banner-section/banner-section.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Mosque/Mosque.jsx" />
+        <option value="$PROJECT_DIR$/src/components/carrusel/react-animated-slider/animated-slider.js" />
+        <option value="$PROJECT_DIR$/src/components/banner-section/data-banner.js" />
+        <option value="$PROJECT_DIR$/src/components/cart-blog-place/cart-blog.jsx" />
+        <option value="$PROJECT_DIR$/src/components/cart-blog-place/cart-blog-styles.css" />
+        <option value="$PROJECT_DIR$/src/components/guideCard/guide.component.jsx" />
+        <option value="$PROJECT_DIR$/src/components/carrusel/react-animated-slider/content.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/pages/homepage/homepage.component.jsx" />
+        <option value="$PROJECT_DIR$/src/components/backgroud-video/BodyVideo.jsx" />
+        <option value="$PROJECT_DIR$/src/components/backgroud-video/Body.css" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="170" />
+    <option name="y" value="91" />
+    <option name="width" value="1026" />
+    <option name="height" value="546" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="halal-travel-uzbekistan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="halal-travel-uzbekistan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="halal-travel-uzbekistan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="halal-travel-uzbekistan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="halal-travel-uzbekistan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="halal-travel-uzbekistan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="halal-travel-uzbekistan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="halal-travel-uzbekistan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="backgroud-video" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="halal-travel-uzbekistan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="halal-travel-uzbekistan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="halal-travel-uzbekistan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="halal-travel-uzbekistan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="homepage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="halal-travel-uzbekistan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="halal-travel-uzbekistan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="AngularJS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../halaltourism" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Новая папка\new\halal-travel-uzbekistan\src\static\guides" />
+      <recent name="F:\Новая папка\new\halal-travel-uzbekistan\src\static\food" />
+      <recent name="F:\Новая папка\new\halal-travel-uzbekistan\src\components" />
+      <recent name="F:\Новая папка\new\halal-travel-uzbekistan\src\components\ScrollButton" />
+      <recent name="F:\Новая папка\new\halal-travel-uzbekistan\src\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Новая папка\new\halal-travel-uzbekistan\public" />
+      <recent name="F:\Новая папка\new\halal-travel-uzbekistan\src" />
+      <recent name="F:\Новая папка\new\halal-travel-uzbekistan\src\static" />
+      <recent name="F:\Новая папка\new\halal-travel-uzbekistan\src\components\navbar" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="adfeca23-109a-403a-8ded-4b8aa417aedb" name="Default Changelist" comment="" />
+      <created>1579367685242</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579367685242</updated>
+      <workItem from="1579367687329" duration="4813000" />
+      <workItem from="1579372609606" duration="1079000" />
+      <workItem from="1579454745822" duration="270000" />
+      <workItem from="1579492807878" duration="1388000" />
+      <workItem from="1579496061982" duration="644000" />
+      <workItem from="1579606933821" duration="4247000" />
+      <workItem from="1579685187453" duration="4935000" />
+      <workItem from="1579694251540" duration="108000" />
+      <workItem from="1579758187015" duration="357000" />
+      <workItem from="1579771147256" duration="543000" />
+      <workItem from="1580054395707" duration="3488000" />
+      <workItem from="1580060118758" duration="3079000" />
+      <workItem from="1580109824670" duration="400000" />
+      <workItem from="1580305408528" duration="1744000" />
+      <workItem from="1580401701312" duration="147000" />
+      <workItem from="1581078385821" duration="5396000" />
+      <workItem from="1581084305282" duration="2672000" />
+      <workItem from="1581158734495" duration="5928000" />
+      <workItem from="1581319877424" duration="33000" />
+      <workItem from="1581319935114" duration="1040000" />
+      <workItem from="1581329410475" duration="863000" />
+      <workItem from="1581337017491" duration="1786000" />
+      <workItem from="1581420863509" duration="7486000" />
+      <workItem from="1581484290769" duration="1375000" />
+      <workItem from="1581499507531" duration="7796000" />
+      <workItem from="1581570663537" duration="4210000" />
+      <workItem from="1581576515825" duration="14399000" />
+      <workItem from="1581594886133" duration="10204000" />
+      <workItem from="1581651360960" duration="6677000" />
+      <workItem from="1581682510786" duration="2326000" />
+      <workItem from="1581743256358" duration="2973000" />
+      <workItem from="1581776296253" duration="1965000" />
+      <workItem from="1581778461201" duration="262000" />
+      <workItem from="1581912137010" duration="7447000" />
+      <workItem from="1581937497856" duration="9915000" />
+      <workItem from="1582024248670" duration="12999000" />
+      <workItem from="1582083451916" duration="5776000" />
+      <workItem from="1582094822745" duration="2108000" />
+      <workItem from="1582106354998" duration="648000" />
+      <workItem from="1582109517399" duration="8635000" />
+      <workItem from="1582171477869" duration="1012000" />
+      <workItem from="1582279831811" duration="13021000" />
+      <workItem from="1582347759537" duration="4285000" />
+      <workItem from="1582363692554" duration="6617000" />
+      <workItem from="1582520994480" duration="6190000" />
+      <workItem from="1582553499444" duration="6216000" />
+      <workItem from="1582601980292" duration="10067000" />
+      <workItem from="1582613067600" duration="35000" />
+      <workItem from="1582613132912" duration="4686000" />
+      <workItem from="1582630044960" duration="13823000" />
+      <workItem from="1582653283393" duration="14053000" />
+      <workItem from="1582688760791" duration="1144000" />
+      <workItem from="1582690593325" duration="1814000" />
+      <workItem from="1582693184439" duration="2174000" />
+      <workItem from="1582972819030" duration="320000" />
+      <workItem from="1583316786282" duration="1522000" />
+      <workItem from="1583491828757" duration="349000" />
+      <workItem from="1583572483503" duration="599000" />
+      <workItem from="1583590958822" duration="677000" />
+      <workItem from="1583725307596" duration="582000" />
+      <workItem from="1583774748898" duration="90000" />
+      <workItem from="1583989041665" duration="732000" />
+      <workItem from="1583990023410" duration="1806000" />
+      <workItem from="1583991890410" duration="237000" />
+      <workItem from="1584162840471" duration="5771000" />
+      <workItem from="1584176094309" duration="1987000" />
+    </task>
+    <task id="LOCAL-00001" summary="&quot;xammasi endi push qildim&quot;">
+      <created>1582095777499</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582095777499</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="251970000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.329296" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.35833332" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="TypeScript" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.37806875" />
+      <window_info anchor="bottom" id="RNConsole" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Key Promoter X" order="3" weight="0.3290566" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2626798" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.35833332" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="TypeScript" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.45826513" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Key Promoter X" order="3" weight="0.3290566" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;xammasi endi push qildim&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;xammasi endi push qildim&quot;" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/components/carrusel/Slider/dataSlide.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/carrusel/Slider/slider.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="64" column="20" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="75" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/banner-section/banner.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="316" column="20" selection-start-line="316" selection-start-column="20" selection-end-line="316" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/static/food/IMG_1036.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/halal/oshxona/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="39" column="32" selection-start-line="8" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/halal/oshxona/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="31" lean-forward="true" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/guideCard/guide.styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="270" column="19" selection-start-line="270" selection-start-column="19" selection-end-line="270" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/halal/git/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="58" selection-start-line="8" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/halal/git/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/guide/guide.page.component.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/static/guides/McCosker.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/components/banner-image/banner-imeg.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/banner-image/banner-styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="140" lean-forward="true" selection-start-line="106" selection-end-line="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/homepage/homepage.styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/react-youtube/react-youtube-component.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/PlacesAdvantures/placesAdvantureData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/PlacesAdvantures/PlacesAdvantures.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="408" column="20" selection-start-line="408" selection-start-column="20" selection-end-line="408" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/PlacesAdvantures/PlacesAdvantures.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/description-guides/description-guide-component.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/description-guides/description-guide-styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ScrollButton/ScrollButton.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="22" column="85" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/foods-component/foods-component.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="50" column="51" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/foods-component/foods-styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1314">
+          <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/services-compoent/services-component.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/banner-section/data-banner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="58" column="2" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/cart-blog-place/cart-blog-styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/carrusel/react-animated-slider/animated-slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="37" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/cart-blog-place/cart-blog.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="101" column="40" selection-start-line="101" selection-start-column="40" selection-end-line="101" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/carrusel/react-animated-slider/content.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/card-blog-hotel/dataHoleFace.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/card-blog-hotel/cart-blog.styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2034">
+          <caret line="113" column="19" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/card-blog-hotel/cart-blog-hotel.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="67" column="26" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/navbar/Navbar.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/navbar/Navbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/banner-section/banner-section.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/guideCard/guide.component.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="43" selection-start-line="42" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Google-maps-API/google-maps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/header/header.component.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Mosque/Mosque.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="72" column="41" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Airline-Tickets/Airline-Tickets.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2322">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Airline-Tickets/Airline-Tickets.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Title/Title.jsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/weather/weather-components.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-253">
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/place/place.page.styles.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/place/place.page.component.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="38" column="14" lean-forward="true" selection-end-line="77" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/static/loding.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/homepage/homepage.component.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/backgroud-video/Body.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/backgroud-video/BodyVideo.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

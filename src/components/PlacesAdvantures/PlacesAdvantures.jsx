@@ -1,15 +1,26 @@
 import React from 'react';
 import BackgroundImg from '../../static/place/Samarkand-At-Night.jpg'
 import logo from '../../static/logo1.png'
+import safari from '../../static/newimage/safari.jpeg'
+import mauntain from '../../static/newimage/mauntain.jpeg'
+import openbus from '../../static/newimage/openbus.jpg'
+import singletravel from '../../static/newimage/singletravel.jpeg'
+import honeymoon2 from '../../static/newimage/honeymoon2.jpeg'
+import honeymoon3 from '../../static/newimage/honeymoon3.jpeg'
 
+
+import dataItem from './placesAdvantureData'
 import './PlacesAdvantures.css';
+import CartBlogHotel from "../card-blog-hotel/cart-blog-hotel";
+import Carousel from "react-multi-carousel";
+import {withRouter} from "react-router";
 
-const PlacesAdvantures = ({item}) => (
+const PlacesAdvantures = ({history}) => (
 
 
-            <div>
+            <div className="Places-Advantures">
                 <div className="services">
-                    <h2>Aur Advantures</h2>
+                    <h2>Our Advantures</h2>
                     <hr className="border secondary" />
 
                         <h4>
@@ -28,28 +39,42 @@ const PlacesAdvantures = ({item}) => (
                             <h3>Summer Trip</h3>
                             <h3>Sport Tour</h3>
                         </div>
-                        <div className="tours">
-                            <div className="image">
-                                <img src="safari.jpeg" alt="" />
-                            </div>
-                            <div className="image">
-                                <img src="mauntain.jpeg" alt="" />
-                            </div>
-                            <div className="image">
-                                <img src="openbus.jpg" alt="" />
-                            </div>
-                            <div className="image">
-                                <img src="singletravel.jpeg" alt="" />
-                            </div>
-                            <div className="image">
-                                <img src="honeymoon2.jpeg" alt="" />
-                            </div>
-                            <div className="image">
-                                <img src="honeymoon3.jpeg" alt="" />
+                        <div className="wrap-palces">
+                            <div className="image-place">
+
+
+                                {dataItem.map((item, index) => (
+                                    <div
+                                        key={index}
+                                        className="col-place">
+                                        <div className="figure-place">
+                                            <img src={item.image} alt=""/>
+                                            <div className="tex-palce">
+                                                <h3>WELOCME TO  {item.title}</h3>
+                                                <br/>
+                                                <p>{item.description}</p>
+                                                <button className="place-button">{item.button}</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                        ))}
+
+
+
+
                             </div>
                         </div>
-                        <div className="lead-more">
-                            <button className="button bigger">Lead More</button>
+
+                                <div className="lead-more">
+                            <button
+                                onClick={()=> {
+                                    history.push('/place')}}
+
+
+                                className="button bigger">Lead More</button>
                         </div>
                     </div>
                 </div>
@@ -58,4 +83,4 @@ const PlacesAdvantures = ({item}) => (
             </div>
 );
 
-export default PlacesAdvantures;
+export default withRouter(PlacesAdvantures);

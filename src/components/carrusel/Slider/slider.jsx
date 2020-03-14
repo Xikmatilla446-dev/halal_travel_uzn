@@ -1,127 +1,80 @@
 import React, { Component } from "react";
-import Slider from "react-slick";
+
+
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 import CartBlogHotel from '../../card-blog-hotel/cart-blog-hotel'
-import left from "../../../static/arrow-icon/left.svg";
-import right from "../../../static/arrow-icon/right.svg";
+
 import './SliderComponent.styles.css'
+import DataSlider from "./dataSlide";
 
-
-function SampleNextArrow(props) {
-    const { className, style, onClick } = props;
-    return (
-        <div
-            className={className}
-            style={{ ...style, display: "none" }}
-            onClick={onClick}
-        />
-    );
-}
-
-function SamplePrevArrow(props) {
-    const { className, style, onClick } = props;
-    return (
-        <div
-            className={className}
-            style={{ ...style, display: "none"}}
-            onClick={onClick}
-        />
-    );
-}
 
 export default class SliderComponent extends Component {
-    constructor(props) {
-        super(props);
-
-        this.state = {
-
-            items:[
-            {id:1, name: "Place Hotel", title:"lormamemaekdfcbajsdcvasghdvcfasd"},
-            {id:2, name: "Place Hotel", title:"lormamemaekdfcbajsdcvasghdvcfasd"},
-            {id:3, name: "Place Hotel", title:"lormamemaekdfcbajsdcvasghdvcfasd"},
-            {id:4, name: "Place Hotel", title:"lormamemaekdfcbajsdcvasghdvcfasd"},
-            {id:5, name: "Place Hotel", title:"lormamemaekdfcbajsdcvasghdvcfasd"},
-            {id:6, name: "Place Hotel", title:"lormamemaekdfcbajsdcvasghdvcfasd"},
-            {id:7, name: "Place Hotel", title:"lormamemaekdfcbajsdcvasghdvcfasd"},
-            {id:8, name: "Place Hotel", title:"lormamemaekdfcbajsdcvasghdvcfasd"},
-        ]};
-
-        this.next = this.next.bind(this);
-        this.previous = this.previous.bind(this);
-    }
-
-    next() {
-
-        this.slider.slickNext();
-    }
-    previous() {
-        this.slider.slickPrev();
-    }
-
     render() {
-        var settings = {
-            dots: false,
-            infinite: false,
-            speed: 500,
-            adaptiveHeight: true,
-            nextArrow: <SampleNextArrow />,
-            prevArrow: <SamplePrevArrow />,
-            slidesToShow: 4,
-            slidesToScroll: 1,
-            initialSlide: 3,
-            responsive: [
-                {
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 3,
-                        infinite: true,
-                        dots: true
-                    }
-                },
-                {
-                    breakpoint: 600,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 2,
-                        initialSlide: 2
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
-                }
-            ]
-        };
 
-        const cards = this.state.items.map(p => (
-            <div className="visit-cards" key = {p.id}>{
-                 <CartBlogHotel  project = {p} />
-            }
-            </div>
-        ));
 
         return (
             <div>
-                <div className="button-arrow">
-
-                    <img className="arrow-left"
-                         onClick={this.previous}
-                         src={left} alt=""/>
 
 
-                    <img className="arrow-right"
-                         onClick={this.next}
-                         src={right} alt=""/>
 
-                </div>
+                <Carousel
+                    additionalTransfrom={0}
+                    arrows
+                    autoPlay
+                    autoPlaySpeed={1000}
+                    centerMode={false}
+                    className=""
+                    containerClass="container-with-dots"
+                    dotListClass=""
+                    draggable
+                    focusOnSelect={false}
+                    infinite
+                    itemClass=""
+                    keyBoardControl
+                    minimumTouchDrag={80}
+                    renderButtonGroupOutside={false}
+                    renderDotsOutside={false}
+                    responsive={{
+                        desktop: {
+                            breakpoint: {
+                                max: 3000,
+                                min: 1024
+                            },
+                            items: 3,
+                            partialVisibilityGutter: 40
+                        },
+                        mobile: {
+                            breakpoint: {
+                                max: 464,
+                                min: 0
+                            },
+                            items: 1,
+                            partialVisibilityGutter: 30
+                        },
+                        tablet: {
+                            breakpoint: {
+                                max: 1024,
+                                min: 464
+                            },
+                            items: 2,
+                            partialVisibilityGutter: 30
+                        }
+                    }}
+                >
+                    {DataSlider.map((item, index) => (
+                        <div
+                            key={index}
+                            className="blog-post-cards">
+                            <CartBlogHotel
+                                item={item}
+                                />
+
+                        </div>
+                    ))}
 
 
-                <Slider className="carusel-slider"   ref={c => (this.slider = c)}  {...settings}>
-                    {cards}
-                     </Slider>
+                </Carousel>
             </div>
         );
     }

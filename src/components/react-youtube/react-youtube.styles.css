@@ -1,0 +1,68 @@
+.player-wrapper {
+    position: relative;
+
+}
+
+.react-player {
+    width: 100%;
+}
+
+
+.wrap{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row{
+    width: 70%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.col{
+    width: 100%;
+    float: left;
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+    margin-right: 10px;
+}
+
+
+
+figure{
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+}
+figcaption{
+    padding: 1rem 1.5rem;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: -125px;
+    left: 0;
+    color: #ffffff;
+    background-color: rgba(0,0,0,.5);
+    transition: all 0.5s linear;
+    pointer-events: none;
+}
+figcaption h4{
+    font-family: Arial;
+    font-size: 25px;
+    text-align: center;
+}
+
+figcaption p {
+    font-family: Arial;
+
+}
+
+figure:hover figcaption {
+    bottom: 0px;
+    height: 18vw;
+}
+
+.row .col-bottom:hover figcaption {
+    bottom: 0px;
+    height: 50vw;
+}

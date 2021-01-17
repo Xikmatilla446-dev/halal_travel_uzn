@@ -3,8 +3,8 @@ import React, {Component} from 'react'
 
 
 import './Body.css'
-import loding from '../../static/loding.jpg';
-import mp4 from '../../static/uzbekiston.mp4';
+// import loding from '../../static/loding.jpg';
+// import mp4 from '../../static/uzbekiston.mp4';
 
 
 
@@ -30,9 +30,9 @@ const BodyVideo = () =>{
                     </div>
                     <div className="video-container">
                         <div className="color-overlay"></div>
-                        <video id="videoBG" poster={loding} autoPlay muted loop>
-                            <source src={mp4} type="video/mp4"/>
-                        </video>
+                        {/*<video id="videoBG" poster={loding} autoPlay muted loop>*/}
+                        {/*    <source src={mp4} type="video/mp4"/>*/}
+                        {/*</video>*/}
                     </div>
                 </div>
                 </body>

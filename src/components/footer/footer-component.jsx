@@ -14,55 +14,6 @@ const FooterComponent = () => {
 
         <div>
 
-            <div className="testimonial">
-                <h1>Testiomonial</h1>
-                <div className="comments">
-                    <div className="comment-item">
-                        <img src={Member2} alt=""/>
-                        <p className="muted-loream">
-                            <i>
-                                "Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Reiciendis, eum amet expedita dolor voluptates architecto
-                                dolores obcaecati alias vel ut nulla assumenda velit quo
-                                tempore quam quis, nesciunt, saepe possimus."
-                            </i>
-                        </p>
-                        <span className="muted-loream">
-                    -Jean Smith
-                </span>
-                    </div>
-                    <div className="comment-item">
-                        <img src={Member1} alt=""/>
-                        <p className="muted-loream">
-                            <i>
-                                "Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Reiciendis, eum amet expedita dolor voluptates architecto
-                                dolores obcaecati alias vel ut nulla assumenda velit quo
-                                tempore quam quis, nesciunt, saepe possimus."
-                            </i>
-                        </p>
-                        <span className="muted-loream">
-                    -John Doe
-                </span>
-                    </div>
-                    <div className="comment-item">
-                        <img src={Member4} alt=""/>
-                        <p className="muted-loream">
-                            <i>
-                                "Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Reiciendis, eum amet expedita dolor voluptates architecto
-                                dolores obcaecati alias vel ut nulla assumenda velit quo
-                                tempore quam quis, nesciunt, saepe possimus."
-                            </i>
-                        </p>
-                        <span className="muted-loream">
-                    -Jake Smith
-                </span>
-                    </div>
-
-                </div>
-            </div>
-
             <div className="footer">
                 <div className="footer-menus">
                     <ul>

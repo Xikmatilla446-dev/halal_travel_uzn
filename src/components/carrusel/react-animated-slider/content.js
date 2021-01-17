@@ -19,15 +19,6 @@ export default [
         userProfile: 'https://s7.postimg.cc/6exjimijv/3_3x.png',
     },
     {
-        title: 'Ultricies Vulputate Mollis',
-        description:
-            'Aenean eu leo quam. Pellentesque ornare sem lacinia  nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.',
-        button: 'Read More',
-        image: 'https://uzbekistan.travel/image-gallery/wp-content/uploads/2019/11/IMG_1039-960x640.jpg',
-        user: 'Jessica',
-        userProfile: 'https://s7.postimg.cc/7ihnu80ij/4_3x.png',
-    },
-    {
         title: 'Odo Aenean Quam Tortor',
         description:
             'Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur Lorem ipsum dolor sit amet, consectetur adipiscing elit.',

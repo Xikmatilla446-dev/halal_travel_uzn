@@ -1,139 +1,96 @@
 import React from 'react';
-import Slider from "react-slick";
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 
 import './banner.css';
-import BackgroundImg from "../../static/place/Samarkand-At-Night.jpg";
-import BackgroundImg2 from "../../static/place/Samarkand-Sunset.jpg";
-import BackgroundImg3 from "../../static/place/Samarkand-Panorama-Big.jpg";
-import left from "../../static/arrow-icon/left.svg";
-import right from "../../static/arrow-icon/right.svg";
+import DataBaner from "./data-banner";
+
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 
 
-
-function SampleNextArrow(props) {
-    const { className, style, onClick } = props;
-    return (
-        <div
-            className={className}
-            style={{ ...style, display: "none" }}
-            onClick={onClick}
-        />
-    );
-}
-
-function SamplePrevArrow(props) {
-    const { className, style, onClick } = props;
-    return (
-        <div
-            className={className}
-            style={{ ...style, display: "none"}}
-            onClick={onClick}
-        />
-    );
-}
-
-
-class BannerComponent extends  React.Component {
+class BannerComponent extends React.Component {
     constructor(props) {
         super(props);
-        this.next = this.next.bind(this);
-        this.previous = this.previous.bind(this);
-    }
-
-    next() {
-
-        this.slider.slickNext();
-    }
-    previous() {
-        this.slider.slickPrev();
     }
 
     render() {
 
-        var settings = {
-            dots: true,
-            infinite: false,
-            speed: 800,
-            adaptiveHeight: true,
-            nextArrow: <SampleNextArrow />,
-            prevArrow: <SamplePrevArrow />,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            initialSlide: 0,
-            responsive: [
-                {
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 3,
-                        infinite: true,
-                        dots: true
-                    }
-                },
-                {
-                    breakpoint: 600,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 2,
-                        initialSlide: 2
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
-                }
-            ]
-        };
 
+        return (
 
-        return(
+            <div className="most-wrapper">
 
-
-                <div >
-
-                <div className="most-title">
-                    <h1>A gorgeus place to <br/> enjoy your life</h1>
-                    <span className="muted-loream">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Possimus quo amet quasi eum voluptatem distinctio, voluptates
-            impedit recusandae voluptatum ullam doloribus rem ipsam facere
-        </span>
-                </div>
-                    <div className="button-arrow">
-
-                        <img className="arrow-left"
-                             onClick={this.previous}
-                             src={left} alt=""/>
-
-
-                        <img className="arrow-right"
-                             onClick={this.next}
-                             src={right} alt=""/>
+                <div className="Places-Advantures">
+                    <div className="services">
+                        <h2>Places to Explore</h2>
+                        <br/>
+                        <br/>
+                        <hr className="border secondary"/>
 
                     </div>
-
-                <div>
-
-                    <Slider className="carusel-slider"
-                        ref={c => (this.slider = c)}  {...settings}>
-                        <div className="most-title-img" >
-                            <img
-                                src={BackgroundImg} alt=""/>
-                        </div>
-                        <div className="most-title-img">
-                            <img src={BackgroundImg2} alt=""/>
-                        </div>
-
-                        <div className="most-title-img">
-                            <img src={BackgroundImg3} alt=""/>
-                        </div>
-                    </Slider>
                 </div>
+
+
+                <Carousel
+                    arrows
+                    autoPlay
+                    autoPlaySpeed={5000}
+                    keyBoardControl={true}
+                    customTransition="all 1s"
+                    transitionDuration={500}
+                    centerMode={false}
+                    className=""
+                    containerClass=""
+                    dotListClass=""
+                    draggable
+                    focusOnSelect={false}
+                    infinite
+                    itemClass=""
+                    minimumTouchDrag={80}
+                    renderButtonGroupOutside={false}
+                    renderDotsOutside
+                    responsive={{
+                        desktop: {
+                            breakpoint: {
+                                max: 3000,
+                                min: 1024
+                            },
+                            items: 1
+                        },
+                        mobile: {
+                            breakpoint: {
+                                max: 464,
+                                min: 0
+                            },
+                            items: 1
+                        },
+                        tablet: {
+                            breakpoint: {
+                                max: 1024,
+                                min: 464
+                            },
+                            items: 1
+                        }
+                    }}
+                    sliderClass=""
+                    slidesToSlide={1}
+                    swipeable
+                >
+
+
+                    {DataBaner.map((item, index) => (
+                        <div
+                            key={index}
+                            className="most-img">
+                            <div className="body-text-carusel">
+                                <p className="text-carusel">{item.title}</p>
+                                <button className="button-visit">Visit now</button>
+                            </div>
+                            <img src={item.image} alt=""/>
+                        </div>
+                    ))}
+
+                </Carousel>
+
             </div>
 
         )

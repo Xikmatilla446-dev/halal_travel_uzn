@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.card1-f h1 {
+    color: white;
+    font-family: Arial Regular;
+    letter-spacing: 2pt;
+    padding-top: 30px;
+    padding-left: 200px;
+}
+.card1-f h3 {
+    color: white;
+    font-family: Arial Regular;
+    letter-spacing: 2pt;
+    padding-left: 200px;
+    margin-top: -15px;
+}
+.git-card-f {
+    padding: 10px;
+}
+.card-f{
+    text-align: center;
+    height: 45vh;
+    background-color: #E7E7E7;
+}
+.card1-f {
+    height: 55vh;
+    background-color: #529ACA;
+}
+.icon-f {
+    margin-left: 1100px;
+    margin-top: -80px;
+}
+.srt-f {
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+}
+.img_card-f{
+    display: inline-flex;
+    margin-top: -130px;
+    padding: 10px;
+}
+.info-f {
+    margin: 20px;
+}
+h2{
+    font-family: "Arial Regular";
+    color: #2F4F4F;
+    letter-spacing: 2pt;
+}
+p{
+    font-family: "Arial Regular";
+    line-height: 1.5;
+    word-spacing: 4pt;
+}
+.img-f img{
+    margin-left: 10px;
+    width: 400px;
+    height: 275px;
+}
+.pic-f{
+    position: relative;
+    display: inline-block;
+}
+.pic-f:hover .coast-f{
+    display: block;
+    background-color: rgba(0, 0, 0, .7);
+}
+.coast-f{
+    margin-left: 10px;
+    display: none;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 400px;
+    height: 275px;
+    z-index: 10;
+}
+.coast-f .h4{
+    font-family: "Arial Regular";
+    color: white;
+    text-align: left;
+    margin: 10px;
+    line-height: 2;
+    letter-spacing: 2pt;
+}
